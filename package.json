@@ -1,0 +1,25 @@
+{
+  "name": "keycloak-examples",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node keycloak_config.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/axios": "^0.14.0",
+    "@types/dotenv": "^8.2.0",
+    "axios": "^1.4.0",
+    "dotenv": "^16.0.3",
+    "jsonwebtoken": "^9.0.0",
+    "keycloak-admin": "^1.14.22",
+    "node-vault": "^0.5.10"
+  },
+  "devDependencies": {
+    "@types/node": "^18.15.11"
+  }
+}
